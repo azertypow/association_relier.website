@@ -1,15 +1,17 @@
 <template>
   <div class="v-footer-app">
-    <img class="v-footer-app__logo" alt="logo silene"  src="../assets/logo-silene.jpg">
+      <ended-page-info/>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
+import EndedPageInfo from "@/components/EndedPageInfo.vue";
 
 export default defineComponent({
   name: 'FooterApp',
   components: {
+      EndedPageInfo
   },
 });
 </script>

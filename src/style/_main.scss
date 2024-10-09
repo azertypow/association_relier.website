@@ -1,9 +1,11 @@
+@import "./inter";
+
 :root {
   --unit: 10px;
 
   --gutter: calc( var(--unit) * 2 );
 
-  --site-color: #fbb78c;
+  --site-color: #9fad7f;
 
   --site-max-width: 700px;
 
@@ -17,7 +19,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--site-color);
-  font-family: Arial, sans-serif;
+  font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: var(--text-font-size);
@@ -45,8 +47,12 @@ p {
 
 .s-page-header {
   display: block;
-  height: 50vh;
-  min-height: 300px;
+  height: 15rem;
+  padding-top: 2rem;
+
+  @media (max-width: 800px) {
+    height: 10rem;
+  }
 }
 
 .s-container {

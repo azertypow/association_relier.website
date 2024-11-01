@@ -5,7 +5,7 @@
 
   --gutter: calc( var(--unit) * 2 );
 
-  --site-color: #9fad7f;
+  --site-color: #fbf1e9;
 
   --site-max-width: 700px;
 
@@ -31,13 +31,21 @@ h1 {
   line-height: calc( var(--text-line-height) * 2 );
   margin-top: var(--text-line-height);
   margin-bottom: var(--text-line-height);
+  text-align: center;
 }
 
 h2 {
+  font-size:    calc( var(--text-font-size) * 1.25 );
+  line-height:  calc( var(--text-line-height) * 1.25 );
+  margin-top:   calc( var(--text-line-height) * 2 );
+  margin-bottom: calc( var(--text-line-height) * 1.25 );
+}
+
+h3 {
   font-size:    calc( var(--text-font-size) * 1 );
   line-height:  calc( var(--text-line-height) * 1 );
   margin-top:   calc( var(--text-line-height) * 2 );
-  margin-bottom: 0;
+  margin-bottom: calc( var(--text-line-height) * 1 );
 }
 
 p {
@@ -65,9 +73,30 @@ p {
   margin: auto;
   width: 100%;
   max-width: var(--site-max-width);
+
+  > *:first-child {
+    margin-top: 0;
+  }
+
+  > *:last-child {
+    margin-top: 0;
+  }
 }
 
 
 a {
   color: inherit;
+}
+
+
+.app-section-box {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 25vh;
+}
+.app-section-box__section {
+  display: block;
+  width: 100%;
 }

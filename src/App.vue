@@ -4,10 +4,10 @@
       <div class="v-app-header__logo" ><router-link to="/">Association<br>Relier</router-link></div>
 
       <nav class="v-app-header__nav">
-        <router-link to="./" >nous</router-link>
-        <router-link to="./inspiration" >inspiration d'accompagnement</router-link>
-        <router-link to="./interpretariat" >public et partenaires</router-link>
-        <router-link to="./contact" >contact</router-link>
+        <a href="#association" >L'association</a>
+        <a href="#inspiration" >Prestations</a>
+        <a href="#about" >À propos</a>
+        <a href="#contact" >Contact</a>
       </nav>
     </header>
 

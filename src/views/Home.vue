@@ -68,14 +68,14 @@
             <blockquote>
               <p>« Chacun doit avoir la possibilité d'accéder aux services publics sans être freiné par des barrières linguistiques, conformément au principe d’égalité inscrit dans la Constitution fédérale. » </p>
             </blockquote>
-            <p>— Article 8, <cite>Constitution fédérale suisse.</cite></p>
+            <p style="text-align: right">— Article 8, <cite>Constitution fédérale suisse.</cite></p>
           </div>
 
           <p>Avec notre service d'interprétariat communautaire, chaque individu à Genève peut accéder aux services essentiels sans être limité par la langue.</p>
 
-          <p>
+          <p style="text-align: center">
             Une demande d’interprétariat, besoin d’une information ?
-            <br><a ref="mailto:interpretariat@relier.ch">interpretariat@relier.ch</a>
+            <br><a href="mailto:interpretariat@relier.ch">interpretariat@relier.ch</a>
           </p>
 
 
@@ -86,7 +86,7 @@
         <h1>À propos</h1>
 
         <div class="s-page_content">
-          <div class="s-page_content">
+          <div class="s-page_content" style="text-align: center">
             <p>[à venir…]</p>
           </div>
         </div>
@@ -97,7 +97,7 @@
           Contact
         </h1>
 
-        <div class="s-page_content">
+        <div class="s-page_content" style="text-align: center">
           <h2>
             <a href="mailto:contact@relier.ch" target="_blank">contact@relier.ch</a>
             <br>www.relier.ch

@@ -68,7 +68,7 @@
             <blockquote>
               <p>« Chacun doit avoir la possibilité d'accéder aux services publics sans être freiné par des barrières linguistiques, conformément au principe d’égalité inscrit dans la Constitution fédérale. » </p>
             </blockquote>
-            <p style="text-align: right">— Article 8, <cite>Constitution fédérale suisse.</cite></p>
+            <p style="text-align: right">Article 8, <cite>Constitution fédérale suisse.</cite></p>
           </div>
 
           <p>Avec notre service d'interprétariat communautaire, chaque individu à Genève peut accéder aux services essentiels sans être limité par la langue.</p>

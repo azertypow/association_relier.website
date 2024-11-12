@@ -24,6 +24,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-size: var(--text-font-size);
   line-height: var(--text-line-height);
+  scroll-behavior: smooth;
+  scroll-padding-top: 33vh;
 }
 
 h1 {

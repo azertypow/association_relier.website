@@ -12,9 +12,7 @@
     </header>
 
     <main class="v-app-main">
-      <Transition name="fade">
-        <router-view/>
-      </Transition>
+      <Home/>
     </main>
 
     <footer-app/>
@@ -89,7 +87,8 @@
 
 <script lang="ts">
 import FooterApp from "@/components/FooterApp.vue"
+import Home from "@/components/Home.vue";
 export default {
-  components: {FooterApp},
+  components: {Home, FooterApp},
 }
 </script>
